@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -70,5 +70,5 @@ public class ArduinoReader : MonoBehaviour
         {
             sp.Close(); // Fecha a porta ao sair
         }
-    }
+    }*/
 
