@@ -88,7 +88,7 @@ public class PlatformSpawn : MonoBehaviour
         if (Random.value < 0.8f) // 80% de chance
         {
             GameObject coletavel = GetPooledCollectible();
-            coletavel.transform.position = new Vector2(randomX, y + 2f); // 2 unidades acima da plataforma
+            coletavel.transform.position = new Vector2(randomX, y + 1.5f); // 2 unidades acima da plataforma
             coletavel.SetActive(true);
         }
     }
